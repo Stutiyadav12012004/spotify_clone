@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+.navbar{
+    height: 10vh;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo{
+    height: 10vh;
+    width: 20%;
+    
+    
+}
+.logo-img{
+    height: 10vh;
+    position: fixed;
+}
+.searchbar{
+    height: 10vh;
+    width: 33%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home-icon{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(31, 29, 29);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.search{
+    height: 60px;
+    width: 85%;
+    background-color: rgb(31, 29, 29);
+    border-radius: 25px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    
+}
+.search-icon{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.set-icon{
+    font-size: 28px;
+}
+.search-field{
+    height: 60px;
+    width: 70%;
+    
+}
+.search-input{
+    height: 100%;
+    width: 100%;
+    color: rgb(87, 86, 86); 
+    font-size: larger;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+.cart{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search:hover{
+    background-color: rgb(40, 38, 38);
+    border: 1px solid rgb(112, 110, 110);
+    transition: background-color 0.3s ease-in-out 0.5s;
+}
+.login{
+    height: 10vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.premium{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.anchor{
+    color: rgb(113, 111, 111);
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 16px;
+    
+
+}
+.nav-end{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.button{
+    height: 50px;
+    width: 120px;
+    background-color: rgb(197, 201, 204);
+    border-radius: 25px;
+    font-size: large;
+    font-weight: bold;
+    outline: none;
+}
