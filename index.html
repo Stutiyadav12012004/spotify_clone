@@ -51,7 +51,19 @@
                 <button class="button" style="width: 160px; height: 35px; margin-left: 10px; background-color: rgb(59, 288, 120); color: black;">Browse podcasts</button>
             </div>
             <div class="playlist" style="height: 15%;">
-                <div class="playlist1">Let's find some podcasts to follow</div>
+                <div class="playlist1 player">
+                    <h3 id="song-title"></h3>
+                    <audio src="" id="audio"></audio>
+                    <div class="controls">
+                        <button id="play-pause">
+                            <img src="" id="play-icon" alt="">
+                        </button>
+
+                        <span id="current-time">0:00</span>
+                        <input type="range" id="progress-bar" value="0" min="0" max="100">
+                        <span id="total-duration">0:00</span>
+                    </div>
+                </div>
                 
             </div>
             <div class="playlist" style="background-color: transparent;  gap: 5px;">
@@ -73,8 +85,23 @@
             </div>
             <div class="lang"></div>
         </div>
-        <div class="right"></div>
+        <div class="right">
+            <div class="artists">
+                <div class="header">
+                    <h2 style="color: rgb(255, 255, 255);">Popular artists</h2>
+                    <h4 class="anchor">Show all</h4>
+                </div>
+                <div class="artists-collection">
+                    <div class="artists-cart">
+                        <div class="artists-img"></div>
+                        <div class="artists-name"></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="songs"></div>
+        </div>
     </div>
-   
+   <script src="script.js"></script>
 </body>
 </html>

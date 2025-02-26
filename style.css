@@ -24,7 +24,6 @@ body{
 }
 .logo-img{
     height: 10vh;
-    position: fixed;
 }
 .searchbar{
     height: 10vh;
@@ -145,7 +144,7 @@ body{
     height: 100%;
     width: 27%;
     background-color: rgb(18,18,18);
-   
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -202,4 +201,63 @@ body{
     width: 71%;
     background-color: rgb(32, 32, 32);
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
+.artists{
+    height: 50%;
+    width: 96%;
+    
+}
+.header{
+    height: 20%;
+    width: 100%;
+   
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.artists-collection{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.artists-cart{
+    height: 100%;
+    width: 17%;
+    
+    
+   
+}
+.artists-img img{
+    height: 150px;
+    width: 150px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    margin-top: 15px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+    
+}
+.artists-name{
+    color: white;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    
+    margin-top: 15px;
+}
+
