@@ -207,7 +207,7 @@ body{
     
 }
 .artists{
-    height: 50%;
+    height: 48%;
     width: 96%;
     
 }
@@ -229,25 +229,21 @@ body{
 }
 .artists-cart{
     height: 100%;
-    width: 17%;
-    
-    
-   
 }
 .artists-img img{
     height: 150px;
     width: 150px;
-    background-color: aquamarine;
+    background-color: rgb(59, 288, 120);
     border-radius: 50%;
     object-fit: cover;
     background-size: cover;
     background-position: center;
     margin-top: 15px;
-    
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 12px;
+    padding: 2px;
+    margin: 5px;
     
 }
 .artists-name{
@@ -257,7 +253,55 @@ body{
     align-items: center;
     justify-content: center;
     font-family: sans-serif;
-    
     margin-top: 15px;
 }
 
+.artists-cart:hover {
+    box-shadow: 2px 2px 5px rgb(59, 288, 120);
+    border-radius: 10px;    
+}
+.songs{
+    height: 48%;
+    width: 96%;
+}
+
+.songs-collection{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.songs-cart {
+    
+    width: 16%;
+    
+}
+
+.songs-img img{
+    height: 200px;
+    width: 160px;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    margin: 5px;
+    
+}
+
+.songs-name h4{
+    color: white;
+    height: 45px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.songs-cart:hover {
+    box-shadow: 2px 2px 5px rgb(59, 288, 120);
+    border-radius: 10px;    
+}
